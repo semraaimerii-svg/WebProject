@@ -1,0 +1,367 @@
+
+#contact {
+    padding: 100px 5%;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#reservation-form {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--red); 
+    background: #fff;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 18px;
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--red); 
+}
+
+.footer-links {
+    margin-top: 60px;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff; 
+    color: #1a1a1a; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e63946; 
+}
+
+
+header {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000; 
+    color: #fff;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.red-line {
+    width: 60px;
+    height: 4px;
+    background-color: #e63946; 
+    margin: 20px auto;
+}
+
+
+#work {
+    padding: 100px 5%;
+}
+
+#work h2 {
+    margin-bottom: 50px;
+    font-size: 2rem;
+    border-left: 5px solid #e63946; 
+    padding-left: 15px;
+}
+
+
+
+#work {
+    padding: 100px 5%;
+}
+
+#work h2 {
+    margin-bottom: 50px;
+    font-size: 2rem;
+    border-left: 5px solid #e63946; 
+    padding-left: 15px;
+}
+
+.portfolio-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    background: #f4f4f4; 
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card img {
+  
+    max-width: 90%; 
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain; 
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(230, 57, 70, 0.9); 
+    color: white;
+    width: 100%;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: 0.4s ease;
+    text-align: center;
+}
+
+.project-card:hover .overlay {
+    transform: translateY(0);
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(230, 57, 70, 0.9); 
+    color: white;
+    width: 100%;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: 0.4s ease;
+}
+
+.project-card:hover .overlay {
+    transform: translateY(0);
+}
+
+
+
+#about {
+    padding: 120px 10%;
+    background-color: #ffffff;  
+    color: #000000;            
+    text-align: center;
+}
+
+.philosophy-text {
+    font-size: 2.2rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;            
+}
+
+.philosophy-details {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #333333;            
+    line-height: 1.8;
+}
+
+.philosophy-subtext {
+    margin-top: 30px;
+    font-style: italic;
+    color: #D21F3C;           
+    font-weight: 500;
+}
+
+.red-text {
+    color: #D21F3C;            
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+#services {
+    padding: 100px 10%;
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.service-card {
+    padding: 40px 20px;
+    border: 1px solid #f0f0f0;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.service-number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #D21F3C; 
+    display: block;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.service-line {
+    width: 30px;
+    height: 4px;
+    background-color: #000000;
+    margin-top: 20px;
+    transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.service-card:hover {
+    border-color: #000;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transform: translateY(-5px);
+}
+
+.service-card:hover .service-line {
+    width: 100%;
+    background-color: #D21F3C; 
+}
+footer {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+footer a {
+    color: #e63946;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.socials {
+    margin-top: 30px;
+}
+
+.socials a {
+    margin: 0 15px;
+    font-size: 0.9rem;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.copyright {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #888;
+}
